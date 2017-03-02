@@ -1,0 +1,21 @@
+library ieee;
+use  ieee.std_logic_1164.all;
+use  ieee.std_logic_arith.all;
+use  ieee.std_logic_unsigned.all;
+
+ENTITY dimezzaClock IS
+	PORT (clock_f : IN STD_LOGIC;
+	clock_f_mezzi : OUT STD_LOGIC);
+END dimezzaClock;
+
+ARCHITECTURE comportamento OF dimezzaClock IS
+SIGNAL conta : STD_LOGIC_VECTOR;
+	BEGIN
+	PROCESS (clock_f)
+	BEGIN
+	IF clock_f = '0' AND clock_f'event
+	THEN conta <= conta + 1;
+	END IF;
+	END PROCESS;
+clock_f_mezzi <= conta;
+END comportamento;

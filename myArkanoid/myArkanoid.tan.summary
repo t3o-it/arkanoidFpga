@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 293.132 ns
+From           : pin_l21
+To             : myArkanoidVHDL:inst|blue1_signal
+From Clock     : --
+To Clock       : clk_50MHz
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.727 ns
+From           : myArkanoidVHDL:inst|leds1[2]
+To             : led1[2]
+From Clock     : clk_50MHz
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.258 ns
+From           : pin_l21
+To             : myArkanoidVHDL:inst|ballMovementH[0]
+From Clock     : --
+To Clock       : clk_50MHz
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk_50MHz'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.38 MHz ( period = 295.535 ns )
+From           : myArkanoidVHDL:inst|ballPositionV[4]
+To             : myArkanoidVHDL:inst|blue1_signal
+From Clock     : clk_50MHz
+To Clock       : clk_50MHz
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

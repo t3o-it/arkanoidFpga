@@ -1,0 +1,108 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+11
+980
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+myArkanoidSchematic
+# storage
+db|myArkanoid.(0).cnf
+db|myArkanoid.(0).cnf
+# case_insensitive
+# source_file
+myArkanoidSchematic.bdf
+13f45973fb2e12eb8768ec5b7f52fe8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+dimezzaClock
+# storage
+db|myArkanoid.(2).cnf
+db|myArkanoid.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+dimezzaClockVHD.vhd
+586a4253b3c3a77dd4ff9a47cd7e30
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+dimezzaClock:inst1
+}
+# lmf
+..|..|programmi win7|alterasoft|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+myArkanoidVHDL
+# storage
+db|myArkanoid.(1).cnf
+db|myArkanoid.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+myArkanoidVHD.vhd
+66a13e935ef8aeb849582321349b1677
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+myArkanoidVHDL:inst
+}
+# lmf
+..|..|programmi win7|alterasoft|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+
